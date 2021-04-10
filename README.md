@@ -10,7 +10,9 @@ Plotly was used to provide data visualization.
 Step 1. First I worked in 2 notebooks: ETL Pipeline Preparation.ipynb & ML Pipeline Preparation.ipynb.  
 Step 2. Then I completed the 2 scripts `process_data.py` and `train_classifier.py` with the code from the notebooks.  
 Step 3. For the web app, I used PyCharm as the IDE and used Virtualenv to create a 
-virtual environment (with all the required dependencies) for the project. The main work for the web app was data visualisation, which was written in Python with the help of Plotly in `run.py`.  
+virtual environment (with all the required dependencies) for the project. 
+The main work for the web app was to build an UI for the ML model and data visualisation, 
+which was written in Python with the help of Plotly in `run.py`.  
 
 ### Dependencies
 The following libraries were required for the project: 
@@ -63,3 +65,9 @@ The web app provides the following functionality:
     `python run.py`
 
 3. Go to http://0.0.0.0:3001/ to view the web app.
+
+### Web App UI
+Here is what the web app UI looks like:
+<p align="center">
+    <img src="images/web-ui-screenshot.png" alt="web app ui" width="500">
+</p>
